@@ -41,8 +41,17 @@ h2 {
 	text-align: center;
 }
 
+a {
+	color: #358DF2;
+	font-weight: 700;
+}
+
 .darkgrey {
 	color: #222222;
+}
+
+.white {
+	color: white;
 }
 
 .left-align {
@@ -218,6 +227,16 @@ nav {
 .icon {
 	width: 60px;
 	text-align: center;
+}
+
+.timeline-blue {
+	background-color: #358DF2;
+}
+
+.category {
+	background-color: #E4F1FE;
+	font-style: bold;
+	padding: 10px;
 }
 
 footer {
