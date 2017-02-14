@@ -194,8 +194,7 @@ nav {
 	top: 50%;
 	margin: 0 auto;
 	text-transform: uppercase;
-	font-style: bold;
-	margin: 0 auto;
+	font-weight: bold;
 }
 
 .class-date {
@@ -206,7 +205,7 @@ nav {
 .class-date p {
 	background-color: #FFD800;
 	text-align: center;
-	font-style: bold;
+	font-weight: bold;
 	border-radius: 3px;
 }
 
@@ -235,7 +234,7 @@ nav {
 
 .category {
 	background-color: #E4F1FE;
-	font-style: bold;
+	font-weight: bold;
 	padding: 10px;
 }
 
