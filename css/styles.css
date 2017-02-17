@@ -74,6 +74,14 @@ a {
 	margin-left: 30px;
 }
 
+.pad-top {
+	padding-top: 30px;
+}
+
+.pad-bottom {
+	padding-bottom: 30px;
+}
+
 nav {
 	background-color: #222222;
 	height: 40px;
@@ -136,15 +144,11 @@ nav {
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 	padding: 20px;
 }
-.grey-button-row1, .grey-button-row2 {
-	display: inline-flex;
-}
 
-.grey-button-row1 {
-	margin-top: 40px;
-}
-.grey-button-row2 {
-	margin-bottom: 40px;
+.grey-button-row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .grey-button {
@@ -167,12 +171,13 @@ nav {
 	border-radius: 3px;
 	padding: 10px;
 	text-align: center;
-	margin: 10px;
+	color: white;
+	display: flex;
+	height: 75px;
+	align-items: center;
+	justify-content: center;
 }
 
-.red-button p {
-	color: white;
-}
 .red-button:hover {
 	background-color: #585858;
 }
@@ -221,6 +226,7 @@ nav {
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 	padding: 20px;
 	margin: 10px;
+	height: 445px;
 }
 
 .icon {
