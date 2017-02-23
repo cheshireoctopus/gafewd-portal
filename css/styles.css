@@ -46,6 +46,14 @@ a {
 	font-weight: 700;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+	border-top: 1px solid black;
+}
+
 .darkgrey {
 	color: #222222;
 }
@@ -54,8 +62,16 @@ a {
 	color: white;
 }
 
+.table-stripe {
+	background-color: #E4F1FE;
+}
+
 .left-align {
 	text-align: left;
+}
+
+.centered {
+	text-align: center;
 }
 
 .push-top: {
@@ -112,7 +128,8 @@ nav {
 .overview {
 	background-color: #222222;
 	padding: 30px;
-	vertical-align: center;
+	display: flex;
+	align-items: center;
 }
 
 .overview p {
@@ -179,7 +196,16 @@ nav {
 }
 
 .red-button:hover {
-	background-color: #585858;
+	background-color: #FFD800;
+	color: white;
+}
+
+.red-button a {
+	text-decoration: none;
+}
+
+.red-button:active {
+	background-color: #F6F6F6;
 }
 
 .week_button {
@@ -189,17 +215,17 @@ nav {
 	width: 92px;
 	height: 92px;
 	border-radius: 50%;
-	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .week_button p {
 	color: white;
 	text-align: center;
-	position: relative;
-	top: 50%;
-	margin: 0 auto;
 	text-transform: uppercase;
 	font-weight: bold;
+	margin: 0 auto;
 }
 
 .class-date {
@@ -226,12 +252,13 @@ nav {
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 	padding: 20px;
 	margin: 10px;
-	height: 445px;
 }
 
 .icon {
 	width: 60px;
 	text-align: center;
+	margin: 0 auto;
+	display: block;
 }
 
 .timeline-blue {
@@ -244,11 +271,49 @@ nav {
 	padding: 10px;
 }
 
+.table-header {
+	background-color: #FFD800;
+	color: white;
+}
+
+.overview a {
+	color: #FFD800;
+}
+
+footer a {
+	color: white;
+}
+
+.overview a:hover {
+	color: #E51B24;
+}
+
+footer a:hover {
+	color: #FFD800;
+}
+
+th {
+	color: white;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+th, td {
+	padding: 30px;
+	border: 0px;
+}
+
+
 footer {
 	background-color: #222222;
   	width: 100%;
   	height: 140px;
   	padding: 20px;
+  	display: flex;
+  	align-items: center;
 }
 
 footer p {

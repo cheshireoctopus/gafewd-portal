@@ -9,6 +9,7 @@
 ### GitHub
 - [Basic Concepts of Git and GitHub](http://thepilcrow.net/explaining-basic-concepts-git-and-github/)
 - [The Absolute Beginners Guide to Github Pages](https://www.ostraining.com/blog/coding/github-pages/)
+- [Getting the Know GitHub video](https://generalassembly.wistia.com/medias/jn23v1hc93)
 
 ### Tools
 - [Stack Overflow, Q+A for coders]
