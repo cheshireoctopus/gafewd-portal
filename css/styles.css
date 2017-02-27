@@ -54,6 +54,10 @@ hr {
 	border-top: 1px solid black;
 }
 
+.blueheader h1 {
+	text-align: center;
+}
+
 .darkgrey {
 	color: #222222;
 }
@@ -123,10 +127,17 @@ nav {
 	background-color: #358DF2;
 	height: 150px;
 	padding: 30px;
+	text-align: center;
+}
+
+.blueheader img {
+	width: 400px;
+	margin: 0 auto;
 }
 
 .overview {
-	background-color: #222222;
+	/*background-color: #222222;*/
+	background-color: #358DF2;
 	padding: 30px;
 	display: flex;
 	align-items: center;
@@ -140,6 +151,7 @@ nav {
 .overview h3 {
 	color: white;
 	font-weight: bold;
+	line-height: 1.25;
 }
 
 .overview h4 {
@@ -261,8 +273,9 @@ nav {
 	display: block;
 }
 
-.timeline-blue {
-	background-color: #358DF2;
+.timeline-bar {
+	/*background-color: #585858;*/
+	background-color: #FFD800;
 }
 
 .category {
@@ -272,7 +285,7 @@ nav {
 }
 
 .table-header {
-	background-color: #FFD800;
+	background-color: #585858;
 	color: white;
 }
 
