@@ -119,6 +119,10 @@ nav {
 	margin-left: 0;
 }
 
+.centered-shorty {
+	margin: 20px auto;
+}
+
 .img-rounded {
 	border-radius: 50%
 }
