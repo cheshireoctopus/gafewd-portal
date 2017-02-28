@@ -17,3 +17,4 @@ To use:
 
 Please feel free to fork your own class. Contributions are welcome 👍
 
+Design by [Maria Stegner](https://github.com/mstegner).
