@@ -13,10 +13,13 @@ $medgrey: #585858;
 $lightgrey: #F6F6F6;*/
 
 body {
-	margin-top: 50px;
 	padding-bottom: 50px;
 	font-size: 18px;
 	line-height: 26px
+}
+
+header {
+	margin-top: 50px;
 }
 
 h1 {
@@ -70,24 +73,32 @@ hr {
 	background-color: #E4F1FE;
 }
 
-.left-align {
-	text-align: left;
+.push-top-sm {
+    margin-top: 15px;
 }
 
-.centered {
-	text-align: center;
-}
-
-.push-top: {
+.push-top {
     margin-top: 30px;
+}
+
+.push-top-lg {
+	margin-top: 45px;
 }
 
 .push-right {
     margin-right: 30px;
 }
 
+.push-bottom-sm {
+	margin-bottom: 15px;
+}
+
 .push-bottom {
     margin-bottom: 30px;
+}
+
+.push-bottom-lg {
+	margin-bottom: 45px;
 }
 
 .push-left {
@@ -100,11 +111,6 @@ hr {
 
 .pad-bottom {
 	padding-bottom: 30px;
-}
-
-nav {
-	background-color: #222222;
-	height: 40px;
 }
 
 .shorty-rule-white {
@@ -123,8 +129,9 @@ nav {
 	margin: 20px auto;
 }
 
-.img-rounded {
-	border-radius: 50%
+.navbar {
+	background: #222222;
+	border-bottom: none;
 }
 
 .blueheader {
@@ -140,7 +147,6 @@ nav {
 }
 
 .overview {
-	/*background-color: #222222;*/
 	background-color: #358DF2;
 	padding: 30px;
 	display: flex;
