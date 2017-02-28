@@ -1,148 +1,232 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
-    <title>FEWD97</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>FRONTEND WEB DEVELOPMENT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/ga-logo.png" width="20" height="20" alt="general assembly logo">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="pages/notes.html">Notes</a></li>
-                    <li><a href="pages/homework.html">Homework</a></li>
-                    <li><a href="pages/final-project.html">Final Project</a></li>
-                    <li><a href="pages/resources.html">Misc</a></li>
-                    <li><a href="pages/about.html">About</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="jumbotron">
+    <header>
+        <!-- NAV BAR GOES HERE -->
+        <nav>
+    
+        </nav>
+
+        <div class="blueheader">
             <div class="container">
-            <h1>Frontend Web Development 97</h1>
-        </div>
-    </div>
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-12">
-                <p>Hello, and welcome to the home for General Assembly's <a href="https://generalassemb.ly/education/front-end-web-development">Frontend Web Development 97</a> (FEWD97) Course.</p>
-                <hr>
-
-                <!-- INSTRUCTIONAL TEAM -->
-                <h2>Instructional Team</h2>
-                <div class="row text-center">
-                    <div class="col-md-4 text-center">
-                        <img src="img/chandler.jpg" class="img-rounded" alt="">
-                        <h3>Chandler Moisen</h3>
-                        <p>hello@chandlermoisen.com</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="img/nate.jpg" class="img-rounded" alt="">
-                        <h3>Nate Mandes</h3>
-                        <p>nate.mandes@generalassemb.ly</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>FRONTEND WEB DEVELOPMENT</h1>
                     </div>
                 </div>
-                <hr>
-
-                <!-- Overview -->
-                <h2>Overview</h2>
-                <p>
-                    Frontend Web Development (FEWD) is a ten-week course introducing students to the basics of programming for the web using HTML, CSS, and JavaScript.
-                </p>
-                <p>
-                    This is a foundational course that teaches students how to build the visual and interactive components of a website. Students learn how to create the structural foundation of a site (HTML), style it (CSS), and add logic to control the behavior (JavaScript) of their website.
-                </p>
-                <p>FEWD is comprised of a total of 60 hours of in-class instruction spread evenly over 20 classes; it breaks down into three units:</p>
-                <ol>
-                    <li>HTML & CSS Foundations</li>
-                    <li>Adding Interactivity with JavaScript</li>
-                    <li>Responsive Web Layout & Advanced Topics</li>
-                </ol>
-                <p>In addition to weekly homework assignments, students are expected to complete a <a href="main/final-project.html">final project</a>, due the last day of class.</p>
-                <hr>
-
-                <!-- LOGISTICS -->
-                <h2>Logicstics</h2>
-                <p><strong>Start:</strong> Monday, 09/26/2016</p>
-                <p><strong>End:</strong> Monday, 12/05/2016</p>
-                <p><strong>Meets:</strong> Monday/Wednesday from 6:30PM - 9:30PM</p>
-                <p><strong>Except:</strong> Monday, October 10th</p>
-                <p><strong>Location:</strong> <a href="https://www.google.com/maps/place/10+E+21st+St,+New+York,+NY+10010/data=!4m2!3m1!1s0x89c259a3c1dc503b:0xbbbe1ddd83dd89c?sa=X&ved=0ahUKEwjEuofaq-LKAhUHqB4KHW1qBJoQ8gEIHDAA">10 E 21st St.</a></p>
-                <p><strong>Room: 3E</strong></p>
-                <hr>
-
-                <!-- PRE-COURSE CHECKLIST -->
-                <h2>Pre-Course Checklist</h2>
-                <p>FEWD is challenging! To ensure you are ready for what lies ahead, it is <b class="red">HIGHLY RECOMMENDED</b> that you spend three to five hours acquainting yourself with some of the core technologies we will be using throughout the course.</p>
-                <p>Before the first day of class, please complete the following:</p>
-                <ol>
-                    <li>Sign up for a <a href="http://github.com" target="_blank">GitHub</a> account</li>
-                    <li>Complete projects one through three on GA's <a href="https://dash.generalassemb.ly/" target="_blank">Dash</a></li>
-                    <li>Install <a href="https://www.sublimetext.com/3" target="_blank">Sublime Text 3</a> (or, an editor of your choice)</li>
-                    <li>Install Google Chrome or Firefox</li>
-                </ol>
-
-                <!-- <p>A document outlining the pre-course checklist can be found <a href="materials/checklist.pdf">here</a>.</p> -->
-
-                <hr>
-
-                <!-- GRADUATION REQUIREMENTS -->
-                <h2>Graduation Requirements</h2>
-                <p>In order to successfully complete FEWD, students must:</p>
-                <ul>
-                    <li>Submit 80% of homework assignments</li>
-                    <li>Miss no more than three classes</li>
-                    <li>Successfully complete and submit a final project</a></li>
-                </ul>
-                <hr>
-
-                <!-- COMMUNICATION -->
-                <h2>Communication</h2>
-                <p>Communication between students and the instructional team is paramount for a successful learning environment. Students are strongly encouraged to reach out to members of the instructional team with any questions.</p>
-                <p><a href="http://slack.com">Slack</a> will serve as the primary tool for communication between students and the instructional team. Before the first class, you will receive an invitation to our Slack room:</p>
-                <p><a href="https://fewd97.slack.com" target="_blank">https://fewd97.slack.com</a></p>
-                <p>Slack can be accessed through the browser, or, through a native application that is installed and runs on your machine.</p>
-                <hr>
-
-                <!-- HOMEWORK -->
-                <h2>Homework</h2>
-                <p>Homework will be assigned at the end of class every Wednesday and is due the following Monday.</p>
-                <p>Files and materials for homework will be distributed during class; they are also available through this website.</p>
-                <p>Students will push (upload) homework to their respective Github repositories for feedback and grading.</p>
-                <p><b>Note:</b> while late homework will be accepted, it is not guaranteed to receive feedback. Please schedule office hours if you would like feedback on late homework.</p>
-                <hr>
-
-                <!-- ADMIN -->
-                <h2>Admin/Student Services</h2>
-                <p>All questions concerning enrollment/payment, or subjects you would prefer not to discuss with the instructional team, should be addressed to GA's Student Services team at: <b>studentservicesnyc@generalassemb.ly</b></p>
             </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="js/analytics.js"></script>
-</body>
 
+        <!-- DARK GREY BACKGROUND HEADER BOX -->
+        <div class="overview">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3>Hello!</h3>
+                        <h3>Welcome to the home for General Assembly's Frontend Web Development (FEWD) Course.</h3>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/icon_code.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+     
+    <!-- INSTRUCTIONAL TEAM PHOTOS -->
+    <div class="container pad-top pad">
+        <div class="row pad-top">
+            <div class="col-md-12">
+            <h3>INSTRUCTIONAL TEAM</h3>
+                </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/chandler.jpg" class="img-rounded" alt="Chandler">
+                            <h3 class="centered">Chandler Moisen</h3>
+                            <a href=“mailto:hello@chandlermoisen.com”>
+                                <p class="centered">hello@chandlermoisen.com</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1">
+                            <img src="img/maria.jpg" class="img-rounded" alt="Maria">
+                            <h3 class="centered">Maria Stegner</h3>
+                            <a href=“mailto:hello@maria.stegner@gmail.com”>
+                                <p class="centered">maria.stegner@gmail.com</p>
+                            </a>
+                        </div>
+
+                    <!-- LOGISTICS INFO CARD -->
+                        <div class="col-md-4 col-md-offset-1">
+                            <div class="grey-info-card">
+                                <h3 class="darkgrey">LOGISTICS</h3>
+                                <hr class="shorty-rule-black">
+                                <h4>START: Monday, 03/06/2017</h4>
+                                <br>
+                                <h4>END: Monday, 05/10/2017</h4>
+                                <br>
+                                <h4>MEETS: Monday and Wednesday
+                                <br>6:30pm - 9:30pm</h4>
+                                <hr class="shorty-rule-black">
+                                <img src="img/icon_marker.svg" width="50px">
+                                <h4>LOCATION: 10 E 21st Street, Room 3E</h4>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <br>
+        </div>
+
+
+    <!-- OVERVIEW ON INDEX PAGE -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="centered">Overview</h2>
+            </div>
+                <div class="col-md-12 centered pad-bottom">
+                    <hr class="shorty-rule-black centered-shorty">
+                    <p>
+                    Frontend Web Development (FEWD) is a ten-week course introducing students to the basics of programming for the web using HTML, CSS, and JavaScript. This is a foundational course that teaches students how to build the visual and interactive components of a website. Students learn how to create the structural foundation of a site (HTML), style it (CSS), and add logic to control the behavior (JavaScript) of their website. FEWD is comprised of a total of 60 hours of in-class instruction spread evenly over 20 classes; it breaks down into three units:
+                    </p>
+                    <br>
+                    <h2>1.</h2>
+                    <h3>HTML + CSS Foundations</h3><br>
+                    <h2>2.</h2>
+                    <h3>Adding Interactivity with JavaScript</h3><br>
+                    <h2>3.</h2>
+                    <h3>Responsive Web Layout + Advanced Topics</h3>
+                    <br>
+                    <br>
+                </div>
+
+            
+        </div>
+    </div>
+    
+    <!-- LIGHT BLUE BOX FOR PRE-COURSE CHECKLIST -->
+    <div class="light-blue-bg">
+        <div class="container">
+            <div class="row">
+                <h2 class="centered push-bottom">Pre-Course Checklist</h2>
+                <p class="centered">
+                FEWD is challenging! To ensure you are ready for what lies ahead, it is HIGHLY RECOMMENDED that you spend three to five hours acquainting yourself with some of the core technologies we will be using throughout the course.</p>
+                <br>
+                <h3 class="centered push-bottom"><u>Before the first day of class, please complete the following:</u></h3>
+                <br>
+            </div>
+        </div>
+    
+        <!-- RED BUTTONS HERE -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://github.com/login" target="_blank">
+                        <p class="red-button">1. Sign up for a GitHub account</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://dash.generalassemb.ly/" target="_blank">
+                        <p class="red-button">2. Complete projects 1-3 on GA's Dash Tutorial</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.sublimetext.com/3" target="_blank">
+                        <p class="red-button">3. Install Sublime Text 3 (or an editor of your choice</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.google.com/chrome/" target="_blank">
+                        <p class="red-button">4. Install Google Chrome or Firefox</p>
+                        <br><br>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- END OF BLUE BOX -->
+
+    <!-- LIGHT GREY BACKGROUND WITH INFO CARDS HERE -->
+    <div class="light-grey-bg">
+        <div class="container">
+            <div class="row">
+
+            <!-- GRADUATION REQUIREMENTS CARD -->
+            <div class="col-md-4">
+                <div class="white-info-card">
+                    <h3 class="darkgrey">GRADUATION REQUIREMENTS</h3>
+                    <hr class="shorty-rule-black">
+                    <p>In order to successfully complete FEWD, students must:
+                    </p>
+                    <ul>
+                        <li>Submit 80% of homework assignments</li>
+                        <li>Miss no more than three classes</li>
+                        <li>Successfully complete and submit a final project</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <img class="icon" src="img/icon_certificate.svg">
+                </div>
+            </div>
+
+            <!-- HOMEWORK CARD -->
+        <div class="col-md-4">
+            <div class="white-info-card">
+                <h3 class="darkgrey">HOMEWORK</h3>
+                <hr class="shorty-rule-black">
+                <p>
+                Homework will be assigned at the end of class every Wednesday and is due the following Monday. Files and materials for homework will be distributed during class; they are also available through this website.
+                </p>
+                <br>
+                <p>
+                Students will push (upload) homework to their respective Github repositories for feedback and grading.
+                </p>
+                <br>
+                <p>
+                NOTE: while late homework will be accepted, it will not receive feedback.
+                </p>
+            </div>
+        </div> <!-- END OF HOMEWORK CARD -->
+
+            <!-- ADMIN STUDENT SERVICES CARD -->
+        <div class="col-md-4">
+            <div class="white-info-card">
+                <h3 class="darkgrey">ADMIN / STUDENT SERVICES</h3>
+                <hr class="shorty-rule-black">
+                <p>
+                All questions concerning enrollment/payment, or subjects you would prefer not to discuss with the instructional team, should be addressed to GA's Student Services team at: <a href="mailto:studentservicesnyc@generalassemb.ly">Student Services NYC</a>
+                </p>
+                <br>
+                <br>
+                <img class="icon" src="img/icon_help.svg">
+            </div>
+        </div> <!-- END OF ADMIN CARD -->
+
+            </div> <!-- END OF ROW -->
+        </div> <!-- END OF CONTAINER -->
+    </div>
+    <!-- END OF LIGHT GREY BACKGROUND -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <p>
+                Assembed by Chandler Moisen and Maria Stegner for General Assembly’s Frontend Web Development part-time course. Code lives at <a href="https://github.com/cheshireoctopus/gafewd" target="_blank">https://github.com/cheshireoctopus/gafewd</a> - feel free to fork for your own class.
+                </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
 </html>
