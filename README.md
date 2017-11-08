@@ -4,9 +4,9 @@
 
 # FEWD: Static Webportal
 
-A web portal for assistance teaching [General Assembly's](http://generalassemb.ly) part-time Frontend Web Development (FEWD) course. Can easibly be adapted for JavaScript Development (JSD) or other part-time classes and workshops.
+A web portal for assistance teaching [General Assembly's](https://generalassemb.ly) part-time Frontend Web Development (FEWD) course. Can easibly be adapted for JavaScript Development (JSD) or other part-time classes and workshops.
 
-An example of this project is hosted at [http://gafewd.surge.sh/](http://gafewd.surge.sh/).
+An example of this project is hosted at [https://gafewd.surge.sh/](https://gafewd.surge.sh/).
 
 Slides corresponding to this repo can be found here: [https://github.com/cheshireoctopus/gafewd-notes](https://github.com/cheshireoctopus/gafewd-notes).
 
