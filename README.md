@@ -6,9 +6,9 @@
 
 A web portal for assistance teaching [General Assembly's](https://generalassemb.ly) part-time Frontend Web Development (FEWD) course. Can easibly be adapted for JavaScript Development (JSD) or other part-time classes and workshops.
 
-An example of this project is hosted at [https://gafewd.surge.sh/](https://gafewd.surge.sh/).
+To see this project in action, visit [https://fewd.nyc](https://fewd.nyc).
 
-Slides corresponding to this repo can be found here: [https://github.com/cheshireoctopus/gafewd-notes](https://github.com/cheshireoctopus/gafewd-notes).
+A complete version of this project (web portal and corresponding slides) can be found here: [https://github.com/cheshireoctopus/gafewd](https://github.com/cheshireoctopus/gafewd).
 
 ### Recommended Setup:
 
@@ -21,3 +21,18 @@ Slides corresponding to this repo can be found here: [https://github.com/cheshir
 Please feel free to fork your own class. Contributions are welcome 👍
 
 Design by [Maria Stegner](https://github.com/mstegner).
+
+### Welcome
+![Welcome Page](img/demo/welcome.png)
+
+### Pre-Course Checklist
+![Pre-Course Checklist](img/demo/pre-course-checklist.png)
+
+### Lessons
+![Lessons](img/demo/lessons.png)
+
+### Homework
+![Homework](img/demo/homework.png)
+
+### Final Project
+![Final Project](img/demo/final-project.png)
